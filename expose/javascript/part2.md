@@ -9,3 +9,23 @@
 9. There is an error. i is declared in the for loop with keyword let, so it has block scope of the for loop it is declared in. We are attempting to access i outside the scope, so there is an error.
 10. 3 is printed. length is the length of the array [100, 200, 300] which is 3. It is declared as a const and the value is not changed so there is no error.
 11. The program returns an array of size 3, that takes the input [100, 200, 300], applies the discount 0.5 and outputs the discounted prices as [50, 100, 150], which is the input values after discount in the same order. So, the first element outputted 50 is the first input 100 after 50% discount and so on. discounted is a const, and throughout it points to the same thing, so changing what that address contains does not matter, so no errors will be received.
+12. A - student.name;
+    B - student["Grad Year"];
+    C - student.greeting();
+    D - student["Favorite Teacher"].name;
+    E - student.courseLoad[0];
+13. A - '32'
+    B - 1
+    C - 3
+    D - '3null'
+    E - 4
+    F - 0
+    G - '3undefined'
+    H - nan
+14. A - true
+    B - false
+    C - true
+    D - false
+    E - false
+    F - true
+15. '==' compares two values and checks whether they are equal or not. '===' compares whether two values are equal and have the same data type or not.
