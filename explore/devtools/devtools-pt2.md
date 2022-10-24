@@ -1,0 +1,2 @@
+1. The bug was that 'document.getElementById("num1").value' for num1 and num2 was not giving the value of the first or the second number as an int. As we know that javascript lets us add any data type to any data type, but they might not give us the expected result. For instance 1 + 2 = 3, but '1'+'2' = '12'
+2. A quick and easy fix for this is by parsing in the values as integers, using parseInt(), now the adder works as expected
