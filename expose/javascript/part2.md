@@ -29,3 +29,4 @@
     E - false
     F - true
 15. '==' compares two values and checks whether they are equal or not. '===' compares whether two values are equal and have the same data type or not.
+17. [2, 4, 6]. We iterate through the input array [1, 2, 3] element by element. For each element, we call doSomething function on it that multiplies the value by 2. Leaving us with the output array newArr. This array was an empty array that has the outputs of doSomething(1), doSomething(2), doSomething(3) in it, so we get [2, 4, 6].
